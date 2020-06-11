@@ -52,12 +52,13 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#" data-nav-section="home"><span>首页</span></a></li>
-                        <li><a href="#" data-nav-section="feature"><span>产品</span></a></li>
-                        <li><a href="#" data-nav-section="technology"><span>组件</span></a></li>
-                        <li><a href="#" data-nav-section="pricing"><span>授权</span></a></li>
-                        <li><a href="#" data-nav-section="preview"><span>预览</span></a></li>
-                        <li><a href="#" data-nav-section="about"><span>演示</span></a></li>
+                        <li class="active"><a href="#" data-nav-section="home" data-nav-no="1"><span>首页</span></a></li>
+                        <li><a href="#" data-nav-section="feature" data-nav-no="2"><span>产品</span></a></li>
+                        <li><a href="#" data-nav-section="technology" data-nav-no="3"><span>组件</span></a></li>
+                        <li><a href="#" data-nav-section="pricing" data-nav-no="4"><span>授权</span></a></li>
+                        <li><a href="#" data-nav-section="preview" data-nav-no="5"><span>预览</span></a></li>
+                        <li><a href="#" data-nav-section="about" data-nav-no="6"><span>关于</span></a></li>
+                        <li><a href="https://wuwenbin.me" target="_blank" class="external" data-nav-no="7"><span>演示</span></a></li>
                     </ul>
                 </div>
             </nav>
@@ -79,15 +80,16 @@
                             <small style="margin-top: 40px;color:#cccccc;">一套基于Layui定制化的轻博客内容系统/建站CMS</small>
                         </h1>
                         <h2 class="animate-box">
-                            Produced by <a href="https://wuwenbin.me" target="_blank" title="wuwenbin.me" class="fh5co-link">wuwenbin.me</a><br/>
+                            Produced by <a href="https://wuwenbin.me" target="_blank" title="wuwenbin.me" class="fh5co-link">GoBunAki</a><br/>
                         </h2>
                         <h2 class="animate-box">
-                            <p style="margin-bottom: 5px;">NotePress（付费版）最新版本：v2020.004 &emsp; 更新于：2020-05-28</p>
+                            <p style="margin-bottom: 5px;">NotePress（付费版）最新版本：v2020.004 &emsp; 更新于：2020-05-31</p>
                             <p>NoteBlog（开源版）最新版本：v5.9.1 &emsp; 更新于：2019-11-01</p>
+                            <p> <small><a href="https://wuwenbin.me/content/u/buynotepress" target="_blank">版本对比</a></small></p>
                         </h2>
 
                         <div class="call-to-action">
-                            <a href="https://wuwenbin.me/content/u/notepress_updatelog" target="_blank" class="demo animate-box" style="font-size: 18px;"><i class="icon-note"></i> 更新日志</a>
+                            <a href="https://wuwenbin.me/content/u/notepress_updatelog" data-nav-section="about" target="_blank" class="demo animate-box" style="font-size: 18px;"><i class="icon-note"></i> 更新日志</a>
                             <a href="#" data-nav-section="pricing" class="download animate-box" style="font-size: 18px;"><i class="icon-shopping-cart"></i> 获取授权</a>
                         </div>
                     </div>
@@ -199,10 +201,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-heading text-center">
-                <h2 class="animate-box">技术架构</h2>
+                <h2 class="animate-box">代码组件</h2>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 subtext animate-box">
-                        <h3>Technical framework</h3>
+                        <h3>code components</h3>
                     </div>
                 </div>
             </div>
@@ -320,7 +322,8 @@
                 <div class="col-md-4 text-center animate-box">
                     <div class="pricing__item">
                         <h3 class="pricing__title">NotePress Plugins</h3>
-                        <div class="pricing__price"><span class="pricing_currency">￥</span>99.9</div>
+                        <h4 class="font-gray font14px">与NotePress配套的所有插件服务</h4>
+                        <div class="pricing__price"><span class="pricing_currency">￥</span>99.9 <small>起</small></div>
                         <ul class="pricing__feature-list">
                             <li class="pricing__feature font-green">NotePress服务插件集合</li>
                             <li class="pricing__feature">为NotePress新增额外功能</li>
@@ -336,7 +339,8 @@
                 <div class="col-md-4 text-center animate-box">
                     <div class="pricing__item pricing-this">
                         <h3 class="pricing__title">NotePress</h3>
-                        <div class="pricing__price"><span class="pricing_currency">￥</span>79.9</div>
+                        <h4 class="font-gray font14px">普通版，不支持支付功能接入</h4>
+                        <div class="pricing__price"><span class="pricing_currency">￥</span>79.9 <small>起</small></div>
                         <ul class="pricing__feature-list">
                             <li class="pricing__feature font-green">全新设计的卡片式欢迎页</li>
                             <li class="pricing__feature">采用多模块工程，代码结构更清晰</li>
@@ -352,12 +356,13 @@
                 <div class="col-md-4 text-center animate-box">
                     <div class="pricing__item">
                         <h3 class="pricing__title">NotePress Pro</h3>
-                        <div class="pricing__price"><span class="pricing_currency">￥</span>99.9</div>
+                        <h4 class="font-gray font14px">高级版，支持免签约支付宝&微信支付</h4>
+                        <div class="pricing__price"><span class="pricing_currency">￥</span>99.9 <small>起</small></div>
                         <ul class="pricing__feature-list">
-                            <li class="pricing__feature font-green">独有的组件文档，助您完美二开</li>
                             <li class="pricing__feature font-green">继承普通版所有特性</li>
-                            <li class="pricing__feature font-green">协助部署一次项目服务</li>
-                            <li class="pricing__feature font-green">QQ保障售后服务</li>
+                            <li class="pricing__feature font-green">包含独立支付服务端项目</li>
+                            <li class="pricing__feature font-green">可协助部署一次项目服务</li>
+                            <li class="pricing__feature font-green">有QQ保障售后服务</li>
                             <li class="pricing__feature font-green">支持免签约的支付宝&微信支付</li>
                             <li class="pricing__feature">完善的文档，二开部署易上手</li>
                             <li class="pricing__feature">周期性迭代更新，永不落后</li>
@@ -389,7 +394,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 animate-box blog">
-                    <a href="#" class="entry">
+                    <a href="images/p_1.png" target="_blank" class="entry">
                         <div class="blog-bg" style="background-image: url(images/p_1.png);">
                             <div class="date">
                                 <span>内容列表</span>
@@ -401,7 +406,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 animate-box blog">
-                    <a href="#" class="entry">
+                    <a href="images/p_2.png" target="_blank" class="entry">
                         <div class="blog-bg" style="background-image: url(images/p_2.png);">
                             <div class="date">
                                 <span>内容列表</span>
@@ -413,7 +418,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 animate-box blog">
-                    <a href="#" class="entry">
+                    <a href="images/p_3.png" target="_blank" class="entry">
                         <div class="blog-bg" style="background-image: url(images/p_3.png);">
                             <div class="date">
                                 <span>笔记列表</span>
@@ -426,7 +431,7 @@
                 </div>
 
                 <div class="col-md-4 animate-box blog">
-                    <a href="#" class="entry">
+                    <a href="images/p_4.png" target="_blank" class="entry">
                         <div class="blog-bg" style="background-image: url(images/p_4.png);">
                             <div class="date">
                                 <span>内容列表</span>
@@ -438,7 +443,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 animate-box blog">
-                    <a href="#" class="entry">
+                    <a href="images/p_5.png" target="_blank" class="entry">
                         <div class="blog-bg" style="background-image: url(images/p_5.png);">
                             <div class="date">
                                 <span>后台管理</span>
@@ -450,7 +455,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 animate-box blog">
-                    <a href="#" class="entry">
+                    <a href="images/p_6.png" target="_blank" class="entry">
                         <div class="blog-bg" style="background-image: url(images/p_6.png);">
                             <div class="date">
                                 <span>主题设置</span>
@@ -470,44 +475,35 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 animate-box" id="update-log">
-                <h3 class="section-title"><i class="icon-leaf"></i> 更新日志（2020年2月22日）</h3>
+                <h3 class="section-title"><i class="icon-leaf"></i> 更新日志（2020年5月31日）</h3>
                 <ul class="log">
-                    <li>视图逻辑调整（管理端改为前后端分离）</li>
-                    <li>后端代码层级更鲜明（改为多模块工程）</li>
-                    <li>后端通用代码增强，易于二次上手开发</li>
-                    <li>后端管理设置界面升级（更清晰简洁）</li>
-                    <li>增加消息通知提示的功能</li>
-                    <li>升级首页卡片的排版，自动计算卡片数量进行布局</li>
-                    <li>升级内容列表39和93模版，增加轮播等系列缩略图</li>
-                    <li>移除样式单一的12模版，增加精美的66系模版</li>
-                    <li>笔记页面内容样式风格升级</li>
-                    <li>更多特性等你发现...</li>
+                    <li>优化欢迎卡片页面UI</li>
+                    <li>优化个人profile编辑信息操作</li>
+                    <li>优化根据设备判断进入的界面的逻辑</li>
+                    <li>优化手机/平板设备的UI</li>
+                    <li>导航栏新增1个可自定义的导航图标</li>
+                    <li>新增可选择直接进入index首页或者卡片欢迎页</li>
+                    <li>修复非PC端搜索框不能聚焦输入的问题</li>
                 </ul>
                 <p>
-                    更多日志：<a href="https://wuwenbin.me/content/u/notepress_log" target="_blank">点我前往</a>
+                    更多日志：<a href="https://wuwenbin.me/content/u/notepress_updatelog" target="_blank">点我前往</a>
                 </p>
             </div>
 
             <div class="col-md-4 animate-box">
-                <h3 class="section-title"><i class="icon-box2"></i> 下版本预告（预计2020年3月底）</h3>
-                <ul class="log">
-                    <li>增加默认主题的风格样式</li>
-                    <li>后台增加统计图的功能</li>
-                    <li>待更新...</li>
+                <h3 class="section-title">联系我们</h3>
+                <ul class="social-media">
+                    <li><a href="https://jq.qq.com/?_wv=1027&k=5kkqBrk?_blank" target="_blank" class="facebook"><i class="icon-qq"></i> 697053454</a></li>
                 </ul>
             </div>
             <div class="col-md-4 animate-box">
                 <h3 class="section-title"><i class="icon-info"></i> 相关信息&资源</h3>
                 <ul class="contact-info">
-                    <li><i class="icon-github"></i><a href="https://github.com/miyakowork/notepress" target="_blank">https://github.com/miyakowork/notepress</a></li>
-                    <li><i class="icon-git-square"></i><a href="https://gitee.com/wuwenbn/notepress" target="_blank">https://gitee.com/wuwenbn/notepress</a></li>
-                    <li><i class="icon-user"></i><a href="https://wuwenbin.me" target="_blank">https://wuwenbin.me</a></li>
-                    <li><i class="icon-sitemap"></i><a href="https://notepress.github.io">https://notepress.github.io</a></li>
+                    <li><i class="icon-github"></i><a href="https://github.com/miyakowork/notepress" target="_blank">开源版（NoteBlog）https://github.com/miyakowork/noteblogv5</a></li>
+                    <li><i class="icon-git-square"></i><a href="https://gitee.com/wuwenbn/notepress" target="_blank">开源版（NoteBlog）https://gitee.com/wuwenbn/noteblogv5</a></li>
+                    <li><i class="icon-user"></i><a href="https://wuwenbin.me" target="_blank">作者网站 https://wuwenbin.me</a></li>
                 </ul>
-                <h3 class="section-title">联系我们</h3>
-                <ul class="social-media">
-                    <li><a href="https://jq.qq.com/?_wv=1027&k=5kkqBrk?_blank" target="_blank" class="facebook"><i class="icon-qq"></i> 697053454</a></li>
-                </ul>
+
             </div>
         </div>
 
