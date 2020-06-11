@@ -51,7 +51,7 @@
 				if ( $('[data-section="' + section + '"]').length ) {
 			    	$('html, body').animate({
 			        	scrollTop: $('[data-section="' + section + '"]').offset().top - 55
-			    	}, 500);
+			    	}, 888);
 			   }
 
 		    if ( navbar.is(':visible')) {
